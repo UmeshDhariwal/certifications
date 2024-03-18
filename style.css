@@ -1,0 +1,216 @@
+body{
+    margin: 0;
+}
+
+.quotes{
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: #918e8e;
+    display: flex;
+    text-align: center;
+    justify-content:center
+
+  
+  }
+#main-div
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url(downloaddd.jpg);
+    background-size: cover;
+    overflow-y: scroll;
+    padding: 1%;
+    box-sizing: border-box;
+}
+
+h1
+{
+   text-align: center;
+   font-size: 2rem;
+   font-weight: bolder;
+   letter-spacing: 10px;
+   font-family: 'Courier New', Courier, fangsong;
+   color: #a4a4a4;
+   text-shadow: 5px 2px 13px #918e8e;
+    margin-bottom: 0.7%;
+}
+
+#search-div
+{
+    width: 50%;
+    margin: auto;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5em;
+    
+}
+
+#search-bar{
+    cursor: text;
+}
+
+#search-div  input
+{
+    border-top-left-radius: 34px;
+    border-bottom-left-radius: 4px;
+    color: #030303;
+    background: #d1cfcf;
+    height: 55%;
+    width: 50%;
+    margin-right: -3%;
+    font-size: 14px;
+    padding-left: 14%;
+}
+
+#search-div button{    
+    margin-top: 0.5%;
+    background-color: #767373;
+    height: 52%;
+    color: white;
+    margin-right: 10%;
+}
+
+
+#random-image:hover {
+    background-color: white;
+    color: black;
+  }
+
+  #my-favourite-meals:hover {
+    background-color: white;
+    color: black;
+  }
+
+#search-div button:nth-child(odd){
+    width: 30%;
+    font-size: 15px;
+}
+
+#meals-div
+{
+    left: 15%;
+    position: relative;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.images
+{
+    width: 30%;
+    height: 45vh;
+    border-radius: 10%;
+    margin: 0 1% 2% 1%;
+    border: 1px solid #DFDFDF;
+    padding-bottom: 1%;
+}
+.images:hover{
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.images h4
+{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #a4a4a4;
+    margin: 3%;
+}
+
+.images img
+{
+    border-radius: 10%;
+    width: 100%;
+    height:73%;
+}
+
+.images button
+{
+    background-color: #989898;
+    width: 45%;
+    height: 12%;
+    color: white;
+    cursor: pointer;
+    margin-left: 8%;
+    margin-right: 30%;
+}
+
+.border-circle:hover {
+    background-color: white;
+    color: black;
+  }
+
+
+.images a{
+    display: inline-block;
+    width: 10%;
+    height: 8%;
+    text-align: center;
+    padding-top: 2%;
+    border-radius: 50px;
+    color: white;
+    border: 1px solid white;
+}
+
+.clicked{  
+    background-color: #7e7c7c !important;
+    color: #050505 !important;
+}
+
+
+.images:hover{
+
+    box-shadow: 2px 2px 2px #DFDFDF,-2px -2px 2px #DFDFDF;
+
+}
+
+.border-circle
+{
+    border-radius: 50px ;
+    cursor: pointer;
+    background-color: #767373;
+    color:white;
+}
+
+.border-circle:hover {
+    background-color: whitesmoke; 
+    color: black;
+  }
+  
+
+.details-page
+{
+    margin: 0 1% 2% 1%;
+    border: 1px solid #DFDFDF;
+    width: 70%;
+    color: white;
+    padding: 1%;
+    height: fit-content;
+}
+
+.details-page h3
+{
+    text-align: center;
+    font-family: cursive;
+    color: #a7a6a6;
+    margin: 3%;
+}
+
+.details-page h5
+{
+    text-align: center;
+    font-family: cursive;
+    color: #a7a6a6;
+    margin: 0 50% 0 5%;
+    display: inline;
+}
+
+.details-page img
+{
+    margin-left: 10%;
+    width: 80%;
+    height:30vh;
+}
+
